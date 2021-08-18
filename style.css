@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background: cornsilk;
+    color: #333;
+}
+body{
+    height: 100vh;
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+.wrapper{
+    align-self: center;
+}
+.wrapper span, .wrapper button{
+    display: block;
+}
+.wrapper span{
+    color: #fff;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+}
+.wrapper button{
+    background: none;
+    border: 3px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 2.25rem;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+}
